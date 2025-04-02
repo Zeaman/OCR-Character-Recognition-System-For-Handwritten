@@ -12,8 +12,38 @@ A Python-based application that recognizes handwritten alphanumeric characters (
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Zeaman/OCR-Character-Recognition-System-For-Handwritten'''
+### 1. Clone the repository:
 
-## 2. Create and activate a virtual environment:
+git clone https://github.com/Zeaman/OCR-Character-Recognition-System-For-Handwritten.git
+cd OCR-Character-Recognition-System-For-Handwritten
+
+### 2. Create and activate a virtual environment (Windows):
+
+python -m venv Myvenv
+venv\Scripts\activate
+
+# Install requirements
+pip install -r requirements.txt
+
+## For Regular Usage
+
+# Activate environment (when returning to project)
+cd OCR-Character-Recognition-System-For-Handwritten
+venv\Scripts\activate
+
+# Run the application
+python src/ocr_app.py
+
+##  Common Git Commands
+
+# After making changes
+git add .
+git commit -m "Your commit message"
+git push origin main
+
+# To pull the latest changes
+git pull origin main
+
+# Expected GUI (TKinter GUI):
+
+
